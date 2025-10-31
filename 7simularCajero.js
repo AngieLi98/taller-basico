@@ -7,4 +7,4 @@ function retirarDinero(saldo, monto){
     }
 }
 
-console.log(retirarDinero(1000, 444));
+console.log(retirarDinero(1000, 460));

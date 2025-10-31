@@ -1,6 +1,6 @@
 function contarPalabras(texto){
-    palabras = texto.length
-    return palabras
+    palabras = texto.split(" ").filter(letra => letra !== " ");
+    return palabras.length;
 }
 
-console.log(contarPalabras("frutas"));
+console.log(contarPalabras("aprendiendo a programar JavaScript"));
